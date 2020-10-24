@@ -1,6 +1,6 @@
 <?php
 
-$filename = "proba";
+$filename = "image";
 
 if(file_exists($filename.".png")) {
     $im = imagecreatefrompng($filename.".png");
